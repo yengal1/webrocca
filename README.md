@@ -21,6 +21,14 @@ ya al realizar la compra
 ![image](https://github.com/user-attachments/assets/4256d2fe-98d6-4518-a674-a97e0ee8fdef)
 ![image](https://github.com/user-attachments/assets/0b74afe5-b428-48c9-ba58-62769d4781b2)
 
+Sobre nosotros 
+![image](https://github.com/user-attachments/assets/33429dc4-0875-4946-8aed-435fe2b7a2fa)
+
+
+Proceso de fabricacion 
+![image](https://github.com/user-attachments/assets/aa701c6e-ee1e-459e-b877-406e0b72e940)
+
+
 Contacto 
 ![image](https://github.com/user-attachments/assets/edb0846e-8b7d-4e10-ab91-ba30e38fc7de)
 
@@ -29,6 +37,7 @@ Registrate
 
 Login 
 ![image](https://github.com/user-attachments/assets/03f3b1c0-61d9-4247-b56e-72b0f554cae8)
+
 
 
 

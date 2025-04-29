@@ -1,0 +1,69 @@
+/* procesp-fabricacion.css */
+
+.process-section {
+    margin-bottom: 4rem;
+}
+
+.process-title {
+    color: #2B7A78;
+    border-bottom: 2px solid #2B7A78;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.process-step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.step-number {
+    background-color: #3AAFA9;
+    color: #FEFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 1.5rem;
+    flex-shrink: 0;
+}
+
+.step-title {
+    color: #17252A;
+    margin-bottom: 0.5rem;
+}
+
+.step-description {
+    color: #495057;
+}
+
+.process-step img {
+    height: 200px; /* Ajusta este valor a la altura deseada */
+    object-fit: cover; /* Recorta la imagen si es necesario para cubrir el área */
+    width: 100%; /* Asegura que la imagen no se extienda más allá de su contenedor */
+    display: block; /* Evita espacios extra debajo de la imagen */
+    margin-top: 1rem; /* Espacio superior para separar el texto de la imagen */
+}
+
+@media (max-width: 768px) {
+    .process-step {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .step-number {
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+
+    .process-step img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin-top: 1rem;
+    }
+}

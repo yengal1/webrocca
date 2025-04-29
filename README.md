@@ -3,24 +3,8 @@ WEBROCCA
 página web
 Sitio web Roca, una empresa con más de 20 años de experiencia en la fabricación y distribución al mayor y detalle de canguros y maletas
 
-roca/
-├── index.html
-├── productos.html
-├── proceso-fabricacion.html
-├── contacto.html
-├── registro.html
-├── login.html
-├── css/
-│   ├── estilosroca.css
-│   ├── registro.css
-│   ├── login.css
-│   ├── procesp-fabricacion.css
-│   └── carrito.css
-├── js/
-│   └── script.js
-├── img/
-│   ├── (imágenes de productos y otras imágenes)
-└── db.json
+![image](https://github.com/user-attachments/assets/0e390fd5-5990-41c2-a782-bcaa1dd8b315)
+
 
 ![image](https://github.com/user-attachments/assets/3724934b-ea46-4b21-ade9-882ef31f5690)
 

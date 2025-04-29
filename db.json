@@ -1,13 +1,64 @@
 {
-    "publicaciones" : [
-     { "id" : " 1 " , "title" : " un título " , "views" : 100 },
-     { "id" : " 2 " , "title" : " otro título " , "views" : 200 }
-   ],
-   "comentarios" : [
-     { "id" : " 1 " , "text" : " un comentario sobre la publicación 1 " , "postId" : " 1 " },
-     { "id" : " 2 " , "text" : " otro comentario sobre la publicación 1 " , "postId" : " 1 " }
-   ],
-   "perfil" : {
-      "nombre" : " typicode "
-   }
- }
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "usuario123",
+      "email": "usuario123@ejemplo.com",
+      "password": "contraseña123"
+    },
+    {
+      "id": 2,
+      "username": "testuser",
+      "email": "test@test.com",
+      "password": "testpassword"
+    },
+    {
+      "username": "nuevoUsuario",
+      "email": "nuevo@email.com",
+      "password": "nueva123",
+      "id": 3
+    },
+    {
+      "username": "otroUsuario",
+      "email": "otro@email.com",
+      "password": "otrapass",
+      "id": 4
+    },
+    {
+      "username": "andres",
+      "email": "andres@andres.com",
+      "password": "andres",
+      "id": 5
+    },
+    {
+      "username": "felipe",
+      "email": "felipe@felipe.com",
+      "password": "felipe",
+      "id": 6
+    },
+    {
+      "username": "jorge",
+      "email": "jorge@jorge.com",
+      "password": "jorge",
+      "id": 7
+    },
+    {
+      "username": "pedro",
+      "email": "pedro@pedro.com",
+      "password": "pedro",
+      "id": 8
+    },
+    {
+      "username": "ana",
+      "email": "ana@ana.com",
+      "password": "ana",
+      "id": 9
+    },
+    {
+      "username": "maria",
+      "email": "maria@maria.com",
+      "password": "maria",
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roca - Canguros y Maletas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilosroca.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="carrito.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">Roca</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="proceso-fabricacion.html">Proceso de Fabricación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#carritoModal">
+                                <i class="bi bi-cart-fill"></i> Carrito <span id="carrito-count" class="badge bg-secondary">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section py-5 bg-light text-center">
+        <div class="container">
+            <h1>Canguros y Maletas Roca</h1>
+            <p class="lead">Diseñados para durar, listos para acompañarte.</p>
+            <div class="mt-4">
+                <a href="productos.html?categoria=canguros" class="btn btn-primary btn-lg me-3">Ver Canguros</a>
+                <a href="productos.html?categoria=maletas" class="btn btn-outline-primary btn-lg">Ver Maletas</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <h2 class="mb-4">Nuestros Canguros</h2>
+                    <img src="img/Canguros 6.jpg" alt="Canguro Roca" class="img-fluid rounded mb-3">
+                    <p>Comodidad y seguridad para tu bebé en cada aventura. Fabricados con materiales resistentes, diseños ergonómicos y a tu gusto.</p>
+                    <button class="btn btn-success btn-sm agregar-carrito-canguro">
+                        <i class="bi bi-cart-plus-fill"></i> Agregar al Carrito
+                    </button>
+                    <a href="productos.html?categoria=canguros" class="btn btn-outline-secondary btn-sm mt-2">Explorar Canguros</a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <h2 class="mb-4">Nuestras Maletas</h2>
+                    <img src="img/maleta-cabina2.jpg" alt="Maleta Roca" class="img-fluid rounded mb-3">
+                    <p>Robustez y estilo para tus viajes. Maletas diseñadas para resistir el uso constante y proteger tus pertenencias.</p>
+                    <button class="btn btn-success btn-sm agregar-carrito-maleta">
+                        <i class="bi bi-cart-plus-fill"></i> Agregar al Carrito
+                    </button>
+                    <a href="productos.html?categoria=maletas" class="btn btn-outline-secondary btn-sm mt-2">Explorar Maletas</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Testimonios de Clientes</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card p-3 mb-3">
+                        <p class="blockquote">"¡Excelente calidad! Mi canguro Roca es muy cómodo para mi bebé y se ve muy resistente."</p>
+                        <footer class="blockquote-footer">Ana M.</footer>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3 mb-3">
+                        <p class="blockquote">"La maleta Roca que compré ha resistido varios viajes sin problemas. ¡Muy contento con la durabilidad!"</p>
+                        <footer class="blockquote-footer">Carlos P.</footer>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3 mb-3">
+                        <p class="blockquote">"El diseño del canguro es moderno y los materiales se sienten de primera. ¡Recomendado!"</p>
+                        <footer class="blockquote-footer">Sofía L.</footer>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary">Ver más Testimonios</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">¡Contáctanos!</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="4" placeholder="Tu mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                    <div id="mensaje-enviado" class="mt-3 alert alert-success d-none" role="alert">
+                        Mensaje enviado correctamente. ¡Gracias!
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-4 text-center">
+                    <p>Dirección: Calle Falsa 123, Bogotá</p>
+                    <p>Teléfono: +57 300 000 0000</p>
+                    <p>Email: rocaroca@roca.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="carritoModal" tabindex="-1" aria-labelledby="carritoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="carritoModalLabel"><i class="bi bi-cart-fill"></i> Tu Carrito de Compras</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group" id="carrito-items">
+                        </ul>
+                    <hr class="my-3">
+                    <p><strong>Total: $<span id="carrito-total">0.00</span></strong></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir Comprando</button>
+                    <button type="button" class="btn btn-primary">Finalizar Compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-3 text-center">
+        <div class="container">
+            <p>&copy; 2025 Roca - Canguros y Maletas. Todos los derechos reservados.</p>
+            <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

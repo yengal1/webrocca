@@ -1,0 +1,55 @@
+/* css/proceso-fabricacion.css */
+
+.process-section {
+    margin-bottom: 4rem;
+}
+
+.process-title {
+    color: #2B7A78; /* Verde Azulado Oscuro Apagado */
+    border-bottom: 2px solid #2B7A78;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.process-step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.step-number {
+    background-color: #3AAFA9; /* Verde Azulado Brillante */
+    color: #FEFFFF; /* Blanco Puro */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 1.5rem;
+    flex-shrink: 0; /* Evita que el número se encoja */
+}
+
+.step-title {
+    color: #17252A; /* Negro Azulado Oscuro */
+    margin-bottom: 0.5rem;
+}
+
+.step-description {
+    color: #495057; /* Gris oscuro estándar de Bootstrap */
+}
+
+/* Ajustar el orden en pantallas más pequeñas para mejor lectura */
+@media (max-width: 768px) {
+    .process-step {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .step-number {
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+}
